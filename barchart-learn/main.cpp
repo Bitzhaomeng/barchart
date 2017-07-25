@@ -17,17 +17,17 @@ int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
 //QBarSet类表示条形图中的一组条
-        QBarSet *set0 = new QBarSet("1km");
-        QBarSet *set1 = new QBarSet("2km");
-        QBarSet *set2 = new QBarSet("3km");
-        QBarSet *set3 = new QBarSet("4km");
+//        QBarSet *set0 = new QBarSet("1km");
+//        QBarSet *set1 = new QBarSet("2km");
+//        QBarSet *set2 = new QBarSet("3km");
+//        QBarSet *set3 = new QBarSet("4km");
         QBarSet *set4 = new QBarSet("水平速度");
         QBarSet *set5 = new QBarSet("垂直速度");
 
-        *set0 << 1 << 2 << 3 << 4 << 5 << 6;
-        *set1 << 5 << 0 << 0 << 4 << 0 << 7;
-        *set2 << 3 << 5 << 8 << 13 << 8 << 5;
-        *set3 << 5 << 6 << 7 << 3 << 4 << 5;
+//        *set0 << 1 << 2 << 3 << 4 << 5 << 6;
+//        *set1 << 5 << 0 << 0 << 4 << 0 << 7;
+//        *set2 << 3 << 5 << 8 << 13 << 8 << 5;
+//        *set3 << 5 << 6 << 7 << 3 << 4 << 5;
         *set4 << 9 << 7 << 5 << 3 << 1 << 2;
         *set5 << -2 << 0<< 1 << -3 << 2 << -2;
     //![1]
